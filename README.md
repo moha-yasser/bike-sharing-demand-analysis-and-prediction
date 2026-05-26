@@ -14,6 +14,14 @@ The project includes:
 
 ---
 
+## Dataset Source
+
+The dataset used in this project is the Bike Sharing Demand dataset from Kaggle:
+
+- [https://www.kaggle.com/c/bike-sharing-demand/data](https://www.kaggle.com/competitions/bike-sharing-demand)
+
+---
+
 ## Dataset Description
 The dataset contains bike rental records along with environmental and temporal features such as:
 - Datetime
