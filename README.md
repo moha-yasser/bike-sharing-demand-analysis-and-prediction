@@ -268,4 +268,16 @@ Among all evaluated models, **XGBoost Regressor** achieved the best overall perf
 - The highest test R² score
 - The lowest RMSLE
 - Better generalization capability compared to other models
+  
+---
+
+### Final Result
+
+The best model (XGBoost) achieved:
+
+- RMSLE: 0.368
+
+This indicates strong predictive performance for the bike demand forecasting task, especially considering the highly skewed nature of the target variable and the variability in demand patterns.
+
+In the context of this competition, lower RMSLE values indicate better performance, and this score reflects a well-generalized model.
 
