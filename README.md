@@ -230,3 +230,34 @@ This helped support:
 - Feature selection
 - Model interpretability
 - Better understanding of feature influence
+
+---
+
+# Machine Learning Models
+
+Several regression models were explored as part of the experimentation process, including:
+
+- Decision Tree Regressor
+- Random Forest Regressor
+- Gradient Boosting Regressor
+- XGBoost Regressor
+
+More extensive hyperparameter tuning was performed on the boosting-based models using `GridSearchCV`, with XGBoost achieving the best overall performance.
+
+---
+
+# Model Performance
+
+| Model | R² Score (Train) | R² Score (Test) | RMSLE (Test) | Notes |
+|---|---|---|---|---|
+| Decision Tree Regressor | 0.9957 | 0.6027 | 0.6300 | Strong overfitting observed |
+| Random Forest Regressor | 0.7021 | 0.5254 | 0.6603 | Lower generalization performance |
+| Gradient Boosting Regressor | 0.8902 | 0.7886 | 0.4412 | Significant improvement over tree-based baselines |
+| XGBoost Regressor | 0.9055 | 0.8496 | 0.3681 | Best overall performance |
+
+### Final Observation
+Among all evaluated models, **XGBoost Regressor** achieved the best overall performance with:
+- The highest test R² score
+- The lowest RMSLE
+- Better generalization capability compared to other models
+
